@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Thu Oct 10 22:50:33 PKT 2019
+2.base=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.path=classes2.dex
+2.baseType=DIRECTORY
+3.base=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+2.set=DEX
+1.path=classes.dex
+4.base=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+count=5
+2.path=classes.dex
+4.set=DEX
+3.path=classes4.dex
+3.baseType=DIRECTORY
+1.set=DEX
+4.path=classes3.dex
+1.baseType=DIRECTORY
+0.base=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.baseType=DIRECTORY
+3.set=DEX
+1.base=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+4.baseType=DIRECTORY
+0.set=DEX

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewDriver">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/gradiant_purple"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/profile"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                >
+
+
+                <EditText
+                    android:id="@+id/firstName"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:hint="First Name"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Last Name"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    />
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="+923104832912"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:inputType="phone"
+                android:maxLength="13"
+                />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Email Address"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:inputType="textEmailAddress"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/gradiant_purple"
+
+
+            >
+
+
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Gender"
+
+                />
+            <EditText
+                android:id="@+id/CNIC"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="CNIC"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:maxLength="13"
+                />
+
+            <EditText
+                android:id="@+id/date_birth"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="DOB"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:enabled="true"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Address"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                />
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/gradian_pink"
+            android:padding="10dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="License Information"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                />
+
+            <Spinner
+                android:id="@+id/license_type"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <EditText
+                android:id="@+id/license_number"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="L-Number"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:maxLength="9"
+                />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/createNewDriver"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SUBMIT DRIVER"
+        />
+
+</LinearLayout>
+
+
+
+</ScrollView>

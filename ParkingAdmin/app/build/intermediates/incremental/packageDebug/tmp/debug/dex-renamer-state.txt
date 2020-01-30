@@ -1,0 +1,16 @@
+#Thu Oct 24 16:40:02 PKT 2019
+path.3=classes3.dex
+path.2=classes2.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+renamed.0=classes.dex
+base.3=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.2=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.0=G\:\\QuickParkingBackups\\ParkingAdmin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+path.4=classes4.dex
